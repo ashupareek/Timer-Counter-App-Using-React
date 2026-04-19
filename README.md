@@ -1,66 +1,38 @@
-body {
-margin: 0;
-font-family: Arial, sans-serif;
-background-color: #f5f5f5;
-}
+# Countdown Timer App
 
-.app-container {
-padding: 30px 50px;
-}
+A simple React Countdown Timer application that allows users to set an initial time in minutes and seconds, start the countdown, pause/resume it, and reset it back to the initial value.
 
-.instructions h1 {
-font-size: 60px;
-margin-bottom: 20px;
-}
+---
 
-.instructions ol {
-font-size: 22px;
-line-height: 1.8;
-max-width: 1400px;
-}
+## Features
 
-.timer-card {
-margin-top: 80px;
-text-align: center;
-}
+- Set countdown time using minutes and seconds inputs
+- Start timer from the given initial value
+- Countdown updates every second
+- Pause and resume the timer
+- Reset timer to the initial started value
+- Display time in `MM:SS` format
 
-.timer-card h2 {
-font-size: 70px;
-margin-bottom: 50px;
-}
+---
 
-.timer-form {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 10px;
-margin-bottom: 20px;
-}
+## Tech Stack
 
-.timer-form input {
-width: 320px;
-padding: 10px;
-font-size: 28px;
-}
+- React
+- JavaScript
+- CSS
+- Vite
 
-.timer-form span {
-font-size: 28px;
-}
+---
 
-.button-group {
-display: flex;
-justify-content: center;
-gap: 10px;
-margin-bottom: 30px;
-}
+## Project Structure
 
-.button-group button {
-font-size: 24px;
-padding: 8px 18px;
-cursor: pointer;
-}
-
-.countdown-display {
-font-size: 72px;
-margin-top: 20px;
-}
+```bash
+src/
+├── components/
+│   ├── CountdownDisplay.jsx
+│   ├── TimerControls.jsx
+│   ├── TimerForm.jsx
+├── App.jsx
+├── App.css
+└── main.jsx
+```
